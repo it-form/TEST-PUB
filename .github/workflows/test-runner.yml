@@ -5,10 +5,10 @@ on:
       - main
 jobs:
   test-runner:
-  runs-on:
-    - self-hosted
-    - linux
-    - x64
+    runs-on:
+      - self-hosted
+      - linux
+      - x64
 
   steps:
     - name: Verification
